@@ -212,7 +212,7 @@ export const GlobalProvider = ({ children }) => {
         {
             id: 1,
             icon: <FaGithub className='icon-contact'/>,
-            content: "github.com/linhct020328"
+            content: "github.com/linh09121999"
         },
         {
             id: 2,
@@ -233,7 +233,7 @@ export const GlobalProvider = ({ children }) => {
         {
             id: 0,
             time: "02/2025 - 07/2025",
-            title: "Frontend Developer & Web Designer (Intern)",
+            title: "Frontend Developer & Web Designer (Fresher)",
             link: "https://tecapro.com.vn/",
             company: "Công ty TNHH Một thành viên ứng dụng kỹ thuật và sản xuất (Tecapro)",
             description: "Thiết kế và phát triển giao diện cho các hệ thống nội bộ của Ủy Ban Kiểm Tra Trung Ương",
@@ -249,25 +249,25 @@ export const GlobalProvider = ({ children }) => {
                 "Làm việc nhóm 4 người theo quy trình Agile"
             ]
         },
-        {
-            id: 1,
-            time: "02/2022 - 07/2022",
-            title: "Sinh viên",
-            company: "Học viện Kỹ thuật Mật mã",
-            link: "https://actvn.edu.vn/",
-            description: "Xây dựng và phát triển các dự án thực tế, các bài tập lớn, đồ án tốt nghiệp",
-            roleTitle: "Vai trò",
-            role: "Xây dựng và phát triển phần mềm",
-            skillTitle: "Công nghệ",
-            skills: ["Python", "C", "QT Desginer"],
-            contentTitle: "Nhiệm vụ và thành tựu",
-            content: [
-                "Thiết kế, thi công hệ thống chống trộm thông minh",
-                "Phát triển hệ thống IoT dựa trên Thingsboard",
-                "Điều khiển Robot car",
-                "Xây dựng hệ thống tín hiệu đèn giao thông",
-            ]
-        },
+        // {
+        //     id: 1,
+        //     time: "02/2022 - 07/2022",
+        //     title: "Sinh viên",
+        //     company: "Học viện Kỹ thuật Mật mã",
+        //     link: "https://actvn.edu.vn/",
+        //     description: "Xây dựng và phát triển các dự án thực tế, các bài tập lớn, đồ án tốt nghiệp",
+        //     roleTitle: "Vai trò",
+        //     role: "Xây dựng và phát triển phần mềm",
+        //     skillTitle: "Công nghệ",
+        //     skills: ["Python", "C", "QT Desginer"],
+        //     contentTitle: "Nhiệm vụ và thành tựu",
+        //     content: [
+        //         "Thiết kế, thi công hệ thống chống trộm thông minh",
+        //         "Phát triển hệ thống IoT dựa trên Thingsboard",
+        //         "Điều khiển Robot car",
+        //         "Xây dựng hệ thống tín hiệu đèn giao thông",
+        //     ]
+        // },
     ])
 
     // hoc van
@@ -327,8 +327,8 @@ export const GlobalProvider = ({ children }) => {
             title: "JavaScript"
         },
         {
-            ratio: 90,
-            title: "HTML5/CSS3"
+            ratio: 85,
+            title: "HTML+ Tailwind"
         },
         {
             ratio: 75,

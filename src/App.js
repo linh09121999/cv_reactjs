@@ -10,7 +10,6 @@ const Page404 = React.lazy(() => import('./view/pages/page404/Page404'));
 const Page500 = React.lazy(() => import('./view/pages/page500/Page500'));
 
 const Cv = React.lazy(() => import('./view/cv/cvLinh'));
-const Test = React.lazy(() => import('./view/cv/test'));
 
 const ProtectedRoute = () => {
   const { isMobile } = useGlobalContext();
@@ -53,7 +52,6 @@ function App() {
             <Route index element={<Navigate to="/cv" replace />} />
             <Route exact path="/cv" name="Cv" element={<Cv />} />
           </Route>
-          <Route exact path="/test" name="Test" element={<Test />} />
         </Routes>
       </Suspense>
     </BrowserRouter >
